@@ -1,0 +1,20 @@
+{
+  "name": "e2eplaywight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^26.0.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.0.0"
+  }
+}
