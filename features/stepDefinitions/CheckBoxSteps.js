@@ -21,4 +21,15 @@ When('User performs actions on Check Box', async function () {
 
     console.log(selectedOptions[1]);
 
+    await checkBoxPage.radioButton.click();
+    await checkBoxPage.yesRadioButton.click();
+    await expect(checkBoxPage.outputRadioButton).toContainText('Yes');
+    const outputText = await checkBoxPage.outputRadioButton.textContent();
+    console.log(outputText);
+
+    await checkBoxPage.impressiveRadioButton.click();
+    await expect(checkBoxPage.outputRadioButton).toContainText('Impressive');
+    const outputText2 = await checkBoxPage.outputRadioButton.textContent();
+    console.log(outputText2);
+
 });

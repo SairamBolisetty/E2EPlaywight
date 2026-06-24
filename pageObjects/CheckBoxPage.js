@@ -16,7 +16,15 @@ class CheckBoxPage extends BasePage {
         this.excelFileCheckBox = page.getByLabel('Select Excel File.doc');
 
         this.results = page.locator("//div[@id='result']");
+
+        this.radioButton = page.locator("//span[text()='Radio Button']");
+        this.yesRadioButton = page.getByLabel('Yes');
+        this.impressiveRadioButton = page.getByLabel('Impressive');
+
+        this.outputRadioButton = page.locator(".mt-3");
+
         
+
 
     }
 }
