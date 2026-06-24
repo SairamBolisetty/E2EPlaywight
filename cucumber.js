@@ -10,5 +10,11 @@ module.exports = {
         ],
         paths: ["features/*.feature"],
         
+        format: [
+            "progress",
+            "json:reports/cucumber-report.json",
+            "html:reports/cucumber-report.html"
+    ],
+    publishQuiet: true
     }
 };

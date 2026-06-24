@@ -1,0 +1,58 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "elements-actions;user-should-be-able-to-perform-actions-on-elements",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User should be able to perform actions on elements",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2118771299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User performs actions on Text Box",
+            "match": {
+              "location": "features\\stepDefinitions\\TextBoxSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 644994699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User performs actions on Check Box",
+            "match": {
+              "location": "features\\stepDefinitions\\CheckBoxSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526615800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "elements-actions",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Elements actions",
+    "tags": [],
+    "uri": "features\\Elements.feature"
+  }
+]
