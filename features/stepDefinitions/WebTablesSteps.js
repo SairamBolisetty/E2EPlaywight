@@ -17,11 +17,31 @@ Then('User performs actions on Web Tables', async function(){
     await webTablesPage.searchBox.fill('Dhanush');
     console.log(await webTablesPage.searchResultName.textContent());
     expect(await webTablesPage.searchResultName.textContent()).toBe('Dhanush');
+    await this.page.waitForTimeout(2000);
     await webTablesPage.searchBox.clear();
     await webTablesPage.editIcon.click();
     await webTablesPage.salaryInput.clear();
     await webTablesPage.salaryInput.fill('25000');
     await webTablesPage.submitButton.click();
     
+    // const salaryText = await webTablesPage.salary.textContent();
+    // console.log(salaryText);
+    const totalSalaryCount = await webTablesPage.salary.count();
+    console.log(totalSalaryCount);
+    
+    
+    for(let i=0; i<totalSalaryCount; i++){
+        const salaryText = await webTablesPage.salary.nth(i).textContent();
+        //console.log(salaryText);
+
+        if(salaryText > 15000){
+            const L1Employee = await webTablesPage.empName.nth(i).textContent();
+            console.log(`L1Employee Name: ${L1Employee}, Salary: ${salaryText}`);
+        }
+        else{
+            const L2Employee = await webTablesPage.empName.nth(i).textContent();
+            console.log(`L2Employee Name: ${L2Employee}, Salary: ${salaryText}`);
+        }
+    }
 
 })

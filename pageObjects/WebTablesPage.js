@@ -14,8 +14,9 @@ class WebTablesPage extends BasePage {
         this.searchBox = page.getByPlaceholder('Type to search');
         this.searchIcon = page.locator("//input[@placeholder='Type to search']//following::button[1]");
         this.searchResultName = page.locator("//tr/td[1]")
-        this.editIcon = page.locator('tr').filter({ hasText: '50000' }).locator('[title="Edit"]');
-        
+        this.editIcon = page.locator('tr').filter({ hasText: '12000' }).locator('[title="Edit"]');
+        this.salary = page.locator('//tr/td[5]');
+        this.empName = page.locator('//tr/td[1]');
     }
 }
 module.exports = WebTablesPage;
