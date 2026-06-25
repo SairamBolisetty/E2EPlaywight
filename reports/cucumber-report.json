@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2976151100
+              "duration": 3129523099
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3301543499
+              "duration": 752685700
             }
           },
           {
@@ -40,7 +40,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2129031299
+              "duration": 743348100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User performs actions on Web Tables",
+            "match": {
+              "location": "features\\stepDefinitions\\WebTablesSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81684400
             }
           }
         ],
