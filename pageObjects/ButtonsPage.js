@@ -8,6 +8,10 @@ class ButtonsPage extends BasePage {
         this.rightClickButton = page.locator("#rightClickBtn");
         this.clickmeButton = page.locator("//button[text()='Click Me']");
 
+        this.doubleClickButtonMessage = page.locator("#doubleClickMessage");
+        this.rightClickButtonMessage = page.locator("#rightClickMessage");
+        this.clickmeButtonMessage = page.locator("#dynamicClickMessage");
+
 
 }
 }

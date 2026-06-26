@@ -9,4 +9,8 @@ Then('User performs actions on Buttons', async function (){
     await buttonsPage.rightClickButton.click({button: 'right'});
     
     await buttonsPage.clickmeButton.click();
+
+    await expect(buttonsPage.doubleClickButtonMessage).toHaveText('You have done a double click');
+    await expect(buttonsPage.rightClickButtonMessage).toHaveText('You have done a right click');
+    await expect(buttonsPage.clickmeButtonMessage).toHaveText('You have done a dynamic click');
 })
