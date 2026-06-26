@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 4172042499
+              "duration": 3450992400
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 632595100
+              "duration": 737555200
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 874082200
+              "duration": 1080670900
             }
           },
           {
@@ -53,7 +53,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3396638100
+              "duration": 3310959799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User performs actions on Buttons",
+            "match": {
+              "location": "features\\stepDefinitions\\ButtonsSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1032900299
             }
           }
         ],
