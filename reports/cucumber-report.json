@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3572441799
+              "duration": 2454793200
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1469281699
+              "duration": 2113459200
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1044025999
+              "duration": 743901899
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3288559000
+              "duration": 3244476099
             }
           },
           {
@@ -66,7 +66,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1075048899
+              "duration": 576227800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User Performs action on Links",
+            "match": {
+              "location": "features\\stepDefinitions\\LinksSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 918095699
             }
           }
         ],
