@@ -20,4 +20,8 @@ Then('User Performs action on Links', async function () {
     const newLinksPage = new LinksPage(this.page2);
     console.log(await newLinksPage.bookStore.textContent());
     await newLinksPage.bookStore.click();
+
+    await this.page.bringToFront();
+    const mainPageTitle = await this.page.title();
+    expect(mainPageTitle).toBe('demosite');
 });

@@ -6,3 +6,4 @@ When User performs actions on Check Box
 Then User performs actions on Web Tables
 Then User performs actions on Buttons
 Then User Performs action on Links
+Then User performs actions on Upload and Download
