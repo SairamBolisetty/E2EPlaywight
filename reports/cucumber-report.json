@@ -14,26 +14,39 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2474264000
+              "duration": 2247725699
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "User fills the Practice Form",
+            "name": "User opens Practice Form",
             "match": {
               "location": "features\\stepDefinitions\\PracticeFormSteps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 288314100
+              "duration": 285803699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "User fills the Form",
+            "match": {
+              "location": "features\\stepDefinitions\\PracticeFormSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 800966799
             }
           }
         ],
         "tags": [
           {
-            "name": "@forms",
+            "name": "@Forms",
             "line": 2
           }
         ],

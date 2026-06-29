@@ -2,9 +2,22 @@ const { Given, When, Then }= require('@cucumber/cucumber')
 const {expect} = require('@playwright/test')
 const PracticeFormPage = require("../../pageObjects/PracticeFormPage")
 
-Given('User fills the Practice Form', async function(){
+Given('User opens Practice Form', async function(){
 const practiceFormPage = new PracticeFormPage(this.page);
 await practiceFormPage.forms.click();
 await practiceFormPage.practiceForm.click();
 
+})
+
+Then('User fills the Form', async function() {
+    const practiceFormPage = new PracticeFormPage(this.page);
+    await practiceFormPage.firstName.fill('Sai');
+    await practiceFormPage.lastName.fill('Ram');
+    await practiceFormPage.email.fill('sai@123.com');
+    await practiceFormPage.gender.click();
+    await practiceFormPage.mobileNumber.fill('9876543210');
+    
+    await practiceFormPage.dateOfBirth.fill('12 Jul 2001')
+    await practiceFormPage.dateOfBirth.press('Enter');
+    
 })
