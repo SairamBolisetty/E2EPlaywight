@@ -4,107 +4,47 @@
     "elements": [
       {
         "description": "",
-        "id": "elements-actions;user-should-be-able-to-perform-actions-on-elements",
+        "id": "practice-form;user-fills-the-data-in-the-practice-form",
         "keyword": "Scenario",
         "line": 3,
-        "name": "User should be able to perform actions on elements",
+        "name": "User fills the data in the Practice Form",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3559665500
+              "duration": 2474264000
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "User performs actions on Text Box",
+            "name": "User fills the Practice Form",
             "match": {
-              "location": "features\\stepDefinitions\\TextBoxSteps.js:5"
+              "location": "features\\stepDefinitions\\PracticeFormSteps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1080818499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 5,
-            "name": "User performs actions on Check Box",
-            "match": {
-              "location": "features\\stepDefinitions\\CheckBoxSteps.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 779780200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 6,
-            "name": "User performs actions on Web Tables",
-            "match": {
-              "location": "features\\stepDefinitions\\WebTablesSteps.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3200472099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "User performs actions on Buttons",
-            "match": {
-              "location": "features\\stepDefinitions\\ButtonsSteps.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 566593399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "User Performs action on Links",
-            "match": {
-              "location": "features\\stepDefinitions\\LinksSteps.js:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3154958899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "User performs actions on Upload and Download",
-            "match": {
-              "location": "features\\stepDefinitions\\UploadAndDownloadSteps.js:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5707764300
+              "duration": 288314100
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@forms",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       }
     ],
-    "id": "elements-actions",
+    "id": "practice-form",
     "line": 1,
     "keyword": "Feature",
-    "name": "Elements actions",
+    "name": "Practice Form",
     "tags": [],
-    "uri": "features\\Elements.feature"
+    "uri": "features\\Forms.feature"
   }
 ]
