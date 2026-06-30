@@ -11,6 +11,10 @@ class PracticeFormPage extends BasePage {
         this.gender = page.getByRole('radio', {name:'Male', exact :true});
         this.mobileNumber = page.getByPlaceholder("Mobile Number");
         this.dateOfBirth = page.locator('#dateOfBirthInput');
+        this.subjects = page.locator("//label[text()='Subjects']//following::input[1]");
+        this.computerScience = page.locator('(//input[@aria-autocomplete="list"])[1]//following::div[2]');
+        this.sportsCheckbox = page.getByLabel('Sports');
+        this.uploadPicture = page.locator('#uploadPicture');
 
     }
     

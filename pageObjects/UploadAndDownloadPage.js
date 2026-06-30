@@ -10,9 +10,6 @@ class UploadAndDownloadPage extends BasePage {
         this.fileDownload = page.locator('//a[@id="downloadButton"]');
         this.dynamicElements = page.locator("//span[text()='Dynamic Properties']");
         this.visibleAfter = page.locator("//button[@id='visibleAfter']");
-
-        
-
 }
 }
 module.exports = UploadAndDownloadPage;

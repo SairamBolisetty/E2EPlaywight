@@ -19,5 +19,12 @@ Then('User fills the Form', async function() {
     
     await practiceFormPage.dateOfBirth.fill('12 Jul 2001')
     await practiceFormPage.dateOfBirth.press('Enter');
+    await practiceFormPage.subjects.fill('Computer Science');
+    console.log(await practiceFormPage.computerScience.textContent());
+    await practiceFormPage.computerScience.click();
+
+    await practiceFormPage.sportsCheckbox.check();
+    const filePath = "C:/Users/bdhan/Downloads/demo.txt"
+    await practiceFormPage.uploadPicture.setInputFiles(filePath);
     
 })
