@@ -26,5 +26,17 @@ Then('User fills the Form', async function() {
     await practiceFormPage.sportsCheckbox.check();
     const filePath = "C:/Users/bdhan/Downloads/demo.txt"
     await practiceFormPage.uploadPicture.setInputFiles(filePath);
+
+    await practiceFormPage.currentAddress.fill('NCR');
+    await practiceFormPage.state.click();
+    await practiceFormPage.stateValue.click();
+    const state =await practiceFormPage.selectedState.textContent();
+    const city = await practiceFormPage.selectedCity.textContent();
+    console.log(`Selected State: ${state}, Selected City: ${city}`)
     
+    await practiceFormPage.city.click();
+    await practiceFormPage.cityValue.click();
+    await practiceFormPage.submitBtn.click();
+    console.log(await practiceFormPage.closeBtn.textContent());
+    await practiceFormPage.closeBtn.click();
 })
