@@ -4,60 +4,47 @@
     "elements": [
       {
         "description": "",
-        "id": "practice-form;user-fills-the-data-in-the-practice-form",
+        "id": "alerts,-frames-and-windows-feature;to-perform-actions-on-alerts,-frames-and-windows",
         "keyword": "Scenario",
         "line": 3,
-        "name": "User fills the data in the Practice Form",
+        "name": "To perform actions on Alerts, Frames and Windows",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3095846700
+              "duration": 3160547999
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "User opens Practice Form",
+            "name": "User perform actions on Windows page",
             "match": {
-              "location": "features\\stepDefinitions\\PracticeFormSteps.js:5"
+              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 1661630299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 5,
-            "name": "User fills the Form",
-            "match": {
-              "location": "features\\stepDefinitions\\PracticeFormSteps.js:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3212848500
+              "duration": 933770300
             }
           }
         ],
         "tags": [
           {
-            "name": "@Forms",
+            "name": "@AlertsFramesWindows",
             "line": 2
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "practice-form",
+    "id": "alerts,-frames-and-windows-feature",
     "line": 1,
     "keyword": "Feature",
-    "name": "Practice Form",
+    "name": "Alerts, Frames and Windows Feature",
     "tags": [],
-    "uri": "features\\Forms.feature"
+    "uri": "features\\AlertsFramesWindows.feature"
   }
 ]
