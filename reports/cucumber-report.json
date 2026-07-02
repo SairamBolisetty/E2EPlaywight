@@ -14,20 +14,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3160547999
+              "duration": 2928407300
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "User perform actions on Windows page",
+            "name": "User perform actions on New Tab page",
             "match": {
-              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:5"
+              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 933770300
+              "duration": 967255999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User perform actions on New Window page",
+            "match": {
+              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 379695699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User navigates to New Window Page and verify the text",
+            "match": {
+              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27430299
             }
           }
         ],
