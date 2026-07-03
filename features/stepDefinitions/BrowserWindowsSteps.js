@@ -48,5 +48,38 @@ Then('User navigates to New Window Page and verify the text', async function(){
         
         const newWindowText = await newBrowserWindowPage.newWindowText.textContent();
         console.log(`The text on the new Window is : ${newWindowText}`);
+
+        this.page2.close();
+        
+})
+
+Then('User perform actions on New Window Message page', async function(){
+    const browserWindowPage = new BrowserWindowPage(this.page);
+    if( await browserWindowPage.newWindowMessageButton.isVisible()){
+       console.log('User is on Windows page') 
+
+    }
+    else{
+    await browserWindowPage.afwbutton.click();
+    await browserWindowPage.browserWindows.click();
+    }
+
+     const[newTab] = await Promise.all([
+        this.context.waitForEvent('page'),
+            browserWindowPage.newWindowMessageButton.click()
+        ]);
+        this.page2 = newTab;
+        await this.page2.waitForLoadState('domcontentloaded');
+        console.log('New Window Message Page opened')
+})
+
+Then('User navigates to New Window Message Page and verify the text', async function(){
+        const newBrowserWindowPage = new NewBrowserWindowPage(this.page,this.page2);
+        
+        const newWindowMessageText = await newBrowserWindowPage.newWindowMessageText.textContent();
+        console.log(`The text on the new Window is : ${newWindowMessageText}`);
+        const splitMessage =newWindowMessageText.split('.');
+        console.log(splitMessage[0]);
+        this.page2.close();
         
 })

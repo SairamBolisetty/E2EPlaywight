@@ -8,6 +8,8 @@ class BrowserWindowPage extends BasePage{
         this.newTabText = this.page.locator("//h1[text()='This is a sample page']")
 
         this.newWindowButton = this.page.locator("//button[text()='New Window']");
+
+        this.newWindowMessageButton = this.page.locator("//button[text()='New Window Message']");
      
     }
 }

@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2928407300
+              "duration": 2885341599
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 967255999
+              "duration": 788836299
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 379695699
+              "duration": 332679799
             }
           },
           {
@@ -53,7 +53,33 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27430299
+              "duration": 15063000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User perform actions on New Window Message page",
+            "match": {
+              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127984000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User navigates to New Window Message Page and verify the text",
+            "match": {
+              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14348100
             }
           }
         ],
