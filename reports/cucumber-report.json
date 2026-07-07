@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2885341599
+              "duration": 4322006199
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 788836299
+              "duration": 1162914099
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 332679799
+              "duration": 358710000
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15063000
+              "duration": 16900200
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 127984000
+              "duration": 213858899
             }
           },
           {
@@ -79,7 +79,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14348100
+              "duration": 25559999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User navigates to Alerts Page",
+            "match": {
+              "location": "features\\stepDefinitions\\AlertSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6501103599
             }
           }
         ],
