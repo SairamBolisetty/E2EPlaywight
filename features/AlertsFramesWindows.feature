@@ -8,3 +8,4 @@ Then User perform actions on New Window Message page
 Then User navigates to New Window Message Page and verify the text
 Then User navigates to Alerts Page
 Then User navigates to Frames Page
+Then User navigates to Nested Frames Page

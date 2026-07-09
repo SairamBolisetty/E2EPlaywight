@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 3521579699
+              "duration": 2342291600
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 920426599
+              "duration": 1033814899
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 319057200
+              "duration": 476399300
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30692200
+              "duration": 14186899
             }
           },
           {
@@ -66,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 116007300
+              "duration": 225612600
             }
           },
           {
@@ -79,7 +79,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12924999
+              "duration": 81478100
             }
           },
           {
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6408514600
+              "duration": 14281649699
             }
           },
           {
@@ -105,7 +105,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 536081200
+              "duration": 5241956999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User navigates to Nested Frames Page",
+            "match": {
+              "location": "features\\stepDefinitions\\NestedFramesSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 338251000
             }
           }
         ],
