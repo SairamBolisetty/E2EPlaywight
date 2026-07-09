@@ -6,6 +6,8 @@ class FramesPage extends BasePage{
         this.heading = page.locator("//h1[@class='text-center']");
         this.frame1 = this.page.frameLocator("//iframe[@id='frame1']");
         this.frame1Text = this.frame1.locator("//h1[@Id='sampleHeading']");
+        this.frame2 = this.page.frameLocator("//iframe[@id='frame2']");
+        this.frame2Text = this.frame2.locator("//h1[@Id='sampleHeading']");
 
     }
 

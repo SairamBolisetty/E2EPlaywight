@@ -8,5 +8,10 @@ Then('User navigates to Frames Page', async function(){
     const pageHeading = await framesPage.heading.textContent();
     console.log(`Page Heading is : ${pageHeading}`);
     const frame1Text=  await framesPage.frame1Text.textContent();
-    console.log(`Frame1 Text is : ${frame1Text}`)
+    console.log(`Frame1 Text is : ${frame1Text}`);
+    
+    const frame2Text = await framesPage.frame2Text.textContent();
+    console.log(`Frame2 Text is : ${frame2Text}`);
+
+
 })
