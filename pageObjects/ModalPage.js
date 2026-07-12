@@ -8,6 +8,11 @@ class ModalPage extends BasePage {
         this.smallModalText = page.locator(".modal-body");
         this.smallModalClose = page.locator("#closeSmallModal")
 
+        this.largeModalButton = page.locator("#showLargeModal");
+        this.LargeModalTitle = page.locator("//div[text()='Large Modal']");
+        this.largeModalText = page.locator(".modal-body");
+        this.largeModalClose = page.locator("#closeLargeModal");
+
 
     }
 }
