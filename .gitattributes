@@ -1,0 +1,10 @@
+# Exclude generated files and reports from language statistics
+playwright-report/** linguist-generated=true
+test-results/** linguist-generated=true
+*.html linguist-generated=true
+coverage/** linguist-generated=true
+node_modules/** linguist-vendored=true
+
+# Mark JavaScript BDD feature files correctly
+*.feature linguist-language=Gherkin
+*.js linguist-language=JavaScript
