@@ -4,151 +4,47 @@
     "elements": [
       {
         "description": "",
-        "id": "alerts,-frames-and-windows-feature;to-perform-actions-on-alerts,-frames-and-windows",
+        "id": "widgets-feature;user-performs-actions-on-widgets-screens",
         "keyword": "Scenario",
-        "line": 3,
-        "name": "To perform actions on Alerts, Frames and Windows",
+        "line": 4,
+        "name": "User performs actions on Widgets screens",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2462744999
+              "duration": 3226066200
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
-            "name": "User perform actions on New Tab page",
-            "match": {
-              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 741229100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
             "line": 5,
-            "name": "User perform actions on New Window page",
+            "name": "User is on Widgets page and performs actions on Auto complete screens",
             "match": {
-              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:26"
+              "location": "features\\stepDefinitions\\AutoCompleteSteps.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 298632599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 6,
-            "name": "User navigates to New Window Page and verify the text",
-            "match": {
-              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:46"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 37628799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 7,
-            "name": "User perform actions on New Window Message page",
-            "match": {
-              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:56"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 126481499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "User navigates to New Window Message Page and verify the text",
-            "match": {
-              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:76"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 12675699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "User navigates to Alerts Page",
-            "match": {
-              "location": "features\\stepDefinitions\\AlertSteps.js:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 6408525300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "User navigates to Frames Page",
-            "match": {
-              "location": "features\\stepDefinitions\\FramesSteps.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 516373599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 11,
-            "name": "User navigates to Nested Frames Page",
-            "match": {
-              "location": "features\\stepDefinitions\\NestedFramesSteps.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 301492800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "User Performs Action on Modal Dialogs",
-            "match": {
-              "location": "features\\stepDefinitions\\ModalSteps.js:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2580196700
+              "duration": 1237571599
             }
           }
         ],
         "tags": [
           {
-            "name": "@AlertsFramesWindows",
+            "name": "@Widgets",
             "line": 2
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "alerts,-frames-and-windows-feature",
+    "id": "widgets-feature",
     "line": 1,
     "keyword": "Feature",
-    "name": "Alerts, Frames and Windows Feature",
+    "name": "Widgets Feature",
     "tags": [],
-    "uri": "features\\AlertsFramesWindows.feature"
+    "uri": "features\\Widgets.feature"
   }
 ]
