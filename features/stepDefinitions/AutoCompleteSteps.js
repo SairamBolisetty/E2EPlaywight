@@ -19,10 +19,25 @@ Given('User is on Widgets page and performs actions on Auto complete screens', a
 
     const removeAllInput = await autoCompletePage.clearMultipleInput;
     const count = await removeAllInput.count();
+    const selectedColours =[]
 
     for(let i=0; i<count; i++ ){
+        const eachColour = await autoCompletePage.multipleColours.nth(0).textContent();
+        selectedColours.push(eachColour)
         await removeAllInput.nth(0).click();
+        
     }
+    console.log(selectedColours);
+
+    const expectedColours = colours.join(', ');
+    const actualColours = selectedColours.join(', ');
+     if( expectedColours === actualColours){
+        console.log('✅ Success: Entered colours match selected colours')
+     }
+     else{
+        console.log('❌ Failure: Arrays do not match')
+     }
+    
     
 
 })
