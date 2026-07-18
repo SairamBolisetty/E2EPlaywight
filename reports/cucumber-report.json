@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2408721999
+              "duration": 3967690099
             }
           },
           {
@@ -27,7 +27,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1482460200
+              "duration": 1653112900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User Performs actions on Date Pickers",
+            "match": {
+              "location": "features\\stepDefinitions\\DatePickerSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 546875000
             }
           }
         ],
