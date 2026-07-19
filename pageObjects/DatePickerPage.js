@@ -8,6 +8,8 @@ class DatePickerPage extends BasePage{
         this.month = page.locator("(//div[@class='react-datepicker__month-container']//select)[1]")
         this.date = page.locator('//div[@role="rowgroup"][2]//div//div');
 
+        this.dateAndTimePicker = page.locator("#dateAndTimePickerInput")
+
 
     }
 }
