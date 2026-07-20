@@ -18,4 +18,6 @@ Then('User Performs actions on Date Pickers', async function(){
     else{
         await dateSelector.last().click();
     }
+
+    await datePickerPage.dateAndTimePicker.click();
 })
