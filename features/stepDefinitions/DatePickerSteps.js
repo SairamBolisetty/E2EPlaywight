@@ -20,4 +20,42 @@ Then('User Performs actions on Date Pickers', async function(){
     }
 
     await datePickerPage.dateAndTimePicker.click();
+
+
+//     const systemDate = new Date();
+//     const month = systemDate.toLocaleString("en-US", { month: "long" });
+//     const dayDate = systemDate.getDate();
+//     const year = systemDate.getFullYear();
+//     const time = systemDate.toLocaleString("en-US", {
+//   hour: "numeric",
+//   minute: "2-digit",
+//   hour12: true
+// });
+// const formatted = `${month} ${dayDate}, ${year} ${time}`;
+// console.log(formatted);
+
+//next week
+
+    const systemDate = new Date();
+    const nextWeek = new Date(systemDate.getTime() + 7 * 24 * 60 * 60 * 1000);
+    const month = nextWeek.toLocaleString("en-US", { month: "long" });
+    const dayDate = nextWeek.getDate();
+    const year = nextWeek.getFullYear();
+    const time = nextWeek.toLocaleString("en-US", {
+    hour: "numeric",
+     minute: "2-digit",
+     hour12: true
+});
+const formatted = `${month} ${dayDate}, ${year} ${time}`;
+
+
+console.log(formatted);
+    await datePickerPage.dateAndTimePicker.clear();
+    await datePickerPage.dateAndTimePicker.fill(formatted);
+    await datePickerPage.dateAndTimePicker.press('Enter');
+    const dateAndTimeValue = await datePickerPage.dateAndTimePicker.inputValue();
+    console.log(dateAndTimeValue);
+    await expect(dateAndTimeValue).toEqual(formatted);
+
+
 })
