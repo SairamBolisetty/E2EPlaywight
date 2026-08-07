@@ -13,8 +13,10 @@ module.exports = {
         format: [
             "progress",
             "json:reports/cucumber-report.json",
-            "html:reports/cucumber-report.html"
+            "html:reports/cucumber-report.html",
+            "allure-cucumberjs/reporter"
     ],
+    
     publishQuiet: true
     }
 };
