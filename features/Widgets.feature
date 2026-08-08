@@ -1,4 +1,5 @@
 Feature: Widgets Feature
+@Regression
 @Widgets
 
 Scenario: User performs actions on Widgets screens

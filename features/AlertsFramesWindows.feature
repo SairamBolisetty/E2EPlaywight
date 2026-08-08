@@ -1,4 +1,5 @@
 Feature: Alerts, Frames and Windows Feature
+@Regression
 @AlertsFramesWindows
 Scenario: To perform actions on Alerts, Frames and Windows
 Given User perform actions on New Tab page

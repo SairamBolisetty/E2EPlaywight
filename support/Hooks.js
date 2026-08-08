@@ -13,6 +13,6 @@ Before(async function () {
 //     console.log("After Step");
 // });
 
-// After(async function () {
-//     await this.closeBrowser();
-// });
+After(async function () {
+    await this.closeBrowser();
+});

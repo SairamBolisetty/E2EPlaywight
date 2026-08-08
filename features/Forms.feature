@@ -1,4 +1,5 @@
 Feature: Practice Form
+@Regression
  @Forms
  Scenario: User fills the data in the Practice Form
     Given User opens Practice Form
