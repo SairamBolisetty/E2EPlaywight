@@ -12,7 +12,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2529197700
+              "duration": 2505685200
             },
             "keyword": "Before",
             "hidden": true
@@ -20,7 +20,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1530511500
+              "duration": 1539012500
             },
             "arguments": [],
             "keyword": "Given ",
@@ -33,7 +33,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 716852500
+              "duration": 723080800
             },
             "arguments": [],
             "keyword": "Then ",
@@ -46,7 +46,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 411170699
+              "duration": 341381100
             },
             "keyword": "After",
             "hidden": true

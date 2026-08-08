@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js",
-    "Regression": "npx cucumber-js --tags @Regression",
-    "AlertsFramesWindows": "npx cucumber-js --tags @AlertsFramesWindows",
-    "Elements": "npx cucumber-js --tags @Elements",
-    "Forms": "npx cucumber-js --tags @Forms",
-    "Widgets": "npx cucumber-js --tags @Widgets"
+    "Regression": "cucumber-js --tags @Regression",
+    "AlertsFramesWindows": "cucumber-js --tags @AlertsFramesWindows",
+    "Elements": "cucumber-js --tags @Elements",
+    "Forms": "cucumber-js --tags @Forms",
+    "Widgets": "cucumber-js --tags @Widgets"
   },
   "keywords": [],
   "author": "",
