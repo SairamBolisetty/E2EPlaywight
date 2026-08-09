@@ -4,6 +4,368 @@
     "elements": [
       {
         "description": "",
+        "id": "alerts,-frames-and-windows-feature;to-perform-actions-on-alerts,-frames-and-windows",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "To perform actions on Alerts, Frames and Windows",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6125238799
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1598504600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User perform actions on New Tab page",
+            "match": {
+              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 445400000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User perform actions on New Window page",
+            "match": {
+              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:26"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 28339400
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User navigates to New Window Page and verify the text",
+            "match": {
+              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:46"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 181319700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User perform actions on New Window Message page",
+            "match": {
+              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:56"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 12787199
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User navigates to New Window Message Page and verify the text",
+            "match": {
+              "location": "features\\stepDefinitions\\BrowserWindowsSteps.js:76"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6330392299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User navigates to Alerts Page",
+            "match": {
+              "location": "features\\stepDefinitions\\AlertSteps.js:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 475361399
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "User navigates to Frames Page",
+            "match": {
+              "location": "features\\stepDefinitions\\FramesSteps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 312191700
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User navigates to Nested Frames Page",
+            "match": {
+              "location": "features\\stepDefinitions\\NestedFramesSteps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2502043299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User Performs Action on Modal Dialogs",
+            "match": {
+              "location": "features\\stepDefinitions\\ModalSteps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 402413400
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 2
+          },
+          {
+            "name": "@AlertsFramesWindows",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "alerts,-frames-and-windows-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Alerts, Frames and Windows Feature",
+    "tags": [],
+    "uri": "features\\AlertsFramesWindows.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "elements-actions;user-should-be-able-to-perform-actions-on-elements",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User should be able to perform actions on elements",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6076819199
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 727098500
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User performs actions on Text Box",
+            "match": {
+              "location": "features\\stepDefinitions\\TextBoxSteps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1102776800
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User performs actions on Check Box",
+            "match": {
+              "location": "features\\stepDefinitions\\CheckBoxSteps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3296316899
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User performs actions on Web Tables",
+            "match": {
+              "location": "features\\stepDefinitions\\WebTablesSteps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1016611300
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User performs actions on Buttons",
+            "match": {
+              "location": "features\\stepDefinitions\\ButtonsSteps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1781485899
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User Performs action on Links",
+            "match": {
+              "location": "features\\stepDefinitions\\LinksSteps.js:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7103144999
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User performs actions on Upload and Download",
+            "match": {
+              "location": "features\\stepDefinitions\\UploadAndDownloadSteps.js:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 397068200
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 2
+          },
+          {
+            "name": "@Elements",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "elements-actions",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Elements actions",
+    "tags": [],
+    "uri": "features\\Elements.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "practice-form;user-fills-the-data-in-the-practice-form",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User fills the data in the Practice Form",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 8807748500
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 636024900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User opens Practice Form",
+            "match": {
+              "location": "features\\stepDefinitions\\PracticeFormSteps.js:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2383061100
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User fills the Form",
+            "match": {
+              "location": "features\\stepDefinitions\\PracticeFormSteps.js:12"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 288531900
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 2
+          },
+          {
+            "name": "@Forms",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "practice-form",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Practice Form",
+    "tags": [],
+    "uri": "features\\Forms.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "widgets-feature;user-performs-actions-on-widgets-screens",
         "keyword": "Scenario",
         "line": 5,
@@ -12,7 +374,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 2505685200
+              "duration": 9105656200
             },
             "keyword": "Before",
             "hidden": true
@@ -20,7 +382,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 1539012500
+              "duration": 2818525299
             },
             "arguments": [],
             "keyword": "Given ",
@@ -33,7 +395,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 723080800
+              "duration": 1360270499
             },
             "arguments": [],
             "keyword": "Then ",
@@ -46,7 +408,7 @@
           {
             "result": {
               "status": "passed",
-              "duration": 341381100
+              "duration": 275271400
             },
             "keyword": "After",
             "hidden": true
